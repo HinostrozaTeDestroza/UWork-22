@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "bd8c12cf-7463-341d-bba0-fbc579e7e685",
+    "name": "AVich0",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "60bdaf34-4f9f-420f-afc1-b8587279a20a",
+    "name": "Poyo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "273f0815-8e33-34db-93ce-e92fc8751b21",
+    "name": "Poyo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "82d7fd37-f8c9-4f14-9415-f028a4fc95a9",
+    "name": "AVich0",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,0 +1,981 @@
+[14Aug2024 02:53:36.479] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[14Aug2024 02:53:36.483] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.24 by Ubuntu
+[14Aug2024 02:53:37.474] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[14Aug2024 02:53:37.597] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/UWork-22/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[14Aug2024 02:53:38.516] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[14Aug2024 02:53:38.611] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[14Aug2024 02:53:38.624] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[14Aug2024 02:53:38.641] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[14Aug2024 02:53:38.650] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[14Aug2024 02:53:38.658] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[14Aug2024 02:53:38.882] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
+[14Aug2024 02:53:40.352] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[14Aug2024 02:53:41.534] [main/WARN] [mixin/]: Error loading class: biomesoplenty/common/world/BOPBiomeProvider (java.lang.ClassNotFoundException: null)
+[14Aug2024 02:53:41.535] [main/WARN] [mixin/]: Error loading class: com/ferreusveritas/dynamictrees/worldgen/BiomeRadiusCoordinator (java.lang.ClassNotFoundException: null)
+[14Aug2024 02:53:41.537] [main/WARN] [mixin/]: Error loading class: com/ferreusveritas/dynamictrees/worldgen/TreeGenerator (java.lang.ClassNotFoundException: null)
+[14Aug2024 02:53:51.004] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod usefulbackpacks is signed with a valid certificate.
+[14Aug2024 02:53:51.085] [modloading-worker-3/WARN] [dev.itsmeow.betteranimalmodels.BetterAnimalModels/]: Better Animal Models is a clientside mod! It does nothing when installed on dedicated servers, and can be safely removed without any issues.
+[14Aug2024 02:53:51.346] [modloading-worker-1/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[14Aug2024 02:53:52.796] [modloading-worker-1/INFO] [JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
+[14Aug2024 02:53:52.821] [modloading-worker-1/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[14Aug2024 02:53:52.822] [modloading-worker-1/INFO] [Spartan Weaponry/]: Initialising API! Version: 6
+[14Aug2024 02:53:53.378] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[14Aug2024 02:53:53.378] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[14Aug2024 02:53:53.389] [modloading-worker-0/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod/]: Injecting super coyotes...
+[14Aug2024 02:54:13.373] [main/INFO] [Spartan Shields/]: Registering Items
+[14Aug2024 02:54:13.374] [main/INFO] [Spartan Shields/]: Registered Items successfully!
+[14Aug2024 02:54:13.661] [main/INFO] [Spartan Weaponry/]: Registering items...
+[14Aug2024 02:54:13.669] [main/INFO] [Spartan Weaponry/]: Items Registered!
+[14Aug2024 02:54:14.117] [main/INFO] [Spartan Shields/]: Registering Enchantments
+[14Aug2024 02:54:14.118] [main/INFO] [Spartan Shields/]: Registered Enchantments successfully!
+[14Aug2024 02:54:14.138] [main/INFO] [Spartan Weaponry/]: Registering Entities
+[14Aug2024 02:54:14.197] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:farlander, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:14.198] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:elder_farlander, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:14.198] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:wanderer, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:14.199] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:ender_guardian, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:14.199] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:looter, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:14.199] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:rebel, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:14.200] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:enderminion, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:14.201] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:mystic_enderminion, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:14.202] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:mystic_enderman, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:14.202] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:classic_enderman, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:14.203] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:fanmade_enderman, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:14.205] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:ender_golem, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:14.206] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farlanders:titan, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:14.440] [main/INFO] [corgitaco.enhancedcelestials.Main/]: enhancedcelestials: Sounds registered!
+[14Aug2024 02:54:14.744] [main/INFO] [ModdingLegacy/structure_gel/Compat/]: Checking for biome dictionary registry methods in other mods.
+[14Aug2024 02:54:14.894] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[14Aug2024 02:54:15.029] [main/INFO] [quark/]: Loading Module Chain Linkage
+[14Aug2024 02:54:15.031] [main/INFO] [quark/]: Loading Module Chains Connect Blocks
+[14Aug2024 02:54:15.031] [main/INFO] [quark/]: Loading Module Chute
+[14Aug2024 02:54:15.031] [main/INFO] [quark/]: Loading Module Color Slime
+[14Aug2024 02:54:15.031] [main/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[14Aug2024 02:54:15.031] [main/INFO] [quark/]: Loading Module Ender Watcher
+[14Aug2024 02:54:15.032] [main/INFO] [quark/]: Loading Module Endermites Form Shulkers
+[14Aug2024 02:54:15.033] [main/INFO] [quark/]: Loading Module Feeding Trough
+[14Aug2024 02:54:15.034] [main/INFO] [quark/]: Loading Module Gravisand
+[14Aug2024 02:54:15.034] [main/INFO] [quark/]: Loading Module Iron Rod
+[14Aug2024 02:54:15.034] [main/INFO] [quark/]: Loading Module Jukebox Automation
+[14Aug2024 02:54:15.036] [main/INFO] [quark/]: Loading Module Metal Buttons
+[14Aug2024 02:54:15.036] [main/INFO] [quark/]: Loading Module Obsidian Plate
+[14Aug2024 02:54:15.040] [main/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[14Aug2024 02:54:15.041] [main/INFO] [quark/]: Loading Module Redstone Circuit
+[14Aug2024 02:54:15.042] [main/INFO] [quark/]: Loading Module Weather Sensor
+[14Aug2024 02:54:15.042] [main/INFO] [quark/]: Loading Module Bamboo Mat
+[14Aug2024 02:54:15.042] [main/INFO] [quark/]: Loading Module Burn Vines
+[14Aug2024 02:54:15.045] [main/INFO] [quark/]: Loading Module Celebratory Lamps
+[14Aug2024 02:54:15.045] [main/INFO] [quark/]: Loading Module Cobblestone Bricks
+[14Aug2024 02:54:15.046] [main/INFO] [quark/]: Loading Module Compressed Blocks
+[14Aug2024 02:54:15.046] [main/INFO] [quark/]: Loading Module Duskbound Blocks
+[14Aug2024 02:54:15.046] [main/INFO] [quark/]: Loading Module Framed Glass
+[14Aug2024 02:54:15.046] [main/INFO] [quark/]: Loading Module Gold Bars
+[14Aug2024 02:54:15.047] [main/INFO] [quark/]: Loading Module Grate
+[14Aug2024 02:54:15.047] [main/INFO] [quark/]: Loading Module Hedges
+[14Aug2024 02:54:15.047] [main/INFO] [quark/]: Loading Module Iron Plates
+[14Aug2024 02:54:15.047] [main/INFO] [quark/]: Loading Module Item Frames
+[14Aug2024 02:54:15.048] [main/INFO] [quark/]: Loading Module Leaf Carpet
+[14Aug2024 02:54:15.048] [main/INFO] [quark/]: Loading Module Lit Lamp
+[14Aug2024 02:54:15.048] [main/INFO] [quark/]: Loading Module Midori
+[14Aug2024 02:54:15.048] [main/INFO] [quark/]: Loading Module More Brick Types
+[14Aug2024 02:54:15.049] [main/INFO] [quark/]: Loading Module More Potted Plants
+[14Aug2024 02:54:15.049] [main/INFO] [quark/]: Loading Module More Stone Variants
+[14Aug2024 02:54:15.049] [main/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[14Aug2024 02:54:15.049] [main/INFO] [quark/]: Loading Module Paper Decor
+[14Aug2024 02:54:15.051] [main/INFO] [quark/]: Loading Module Quilted Wool
+[14Aug2024 02:54:15.052] [main/INFO] [quark/]: Loading Module Rope
+[14Aug2024 02:54:15.053] [main/INFO] [quark/]: Loading Module Shallow Dirt
+[14Aug2024 02:54:15.054] [main/INFO] [quark/]: Loading Module Shingles
+[14Aug2024 02:54:15.055] [main/INFO] [quark/]: Loading Module Soul Sandstone
+[14Aug2024 02:54:15.055] [main/INFO] [quark/]: Loading Module Stained Planks
+[14Aug2024 02:54:15.055] [main/INFO] [quark/]: Loading Module Stools
+[14Aug2024 02:54:15.056] [main/INFO] [quark/]: Loading Module Sturdy Stone
+[14Aug2024 02:54:15.058] [main/INFO] [quark/]: Loading Module Tallow And Candles
+[14Aug2024 02:54:15.059] [main/INFO] [quark/]: Loading Module Thatch
+[14Aug2024 02:54:15.061] [main/INFO] [quark/]: Loading Module Tie Leads To Fences
+[14Aug2024 02:54:15.062] [main/INFO] [quark/]: Loading Module Turf
+[14Aug2024 02:54:15.062] [main/INFO] [quark/]: Loading Module Variant Bookshelves
+[14Aug2024 02:54:15.062] [main/INFO] [quark/]: Loading Module Variant Chests
+[14Aug2024 02:54:15.065] [main/INFO] [quark/]: Loading Module Variant Ladders
+[14Aug2024 02:54:15.067] [main/INFO] [quark/]: Loading Module Vertical Planks
+[14Aug2024 02:54:15.072] [main/INFO] [quark/]: Loading Module Vertical Slabs
+[14Aug2024 02:54:15.072] [main/INFO] [quark/]: Loading Module Wooden Posts
+[14Aug2024 02:54:15.072] [main/INFO] [quark/]: Loading Module Chests In Boats
+[14Aug2024 02:54:15.073] [main/INFO] [quark/]: Loading Module Easy Transfering
+[14Aug2024 02:54:15.073] [main/INFO] [quark/]: Loading Module Hotbar Changer
+[14Aug2024 02:54:15.074] [main/INFO] [quark/]: Loading Module Inventory Sorting
+[14Aug2024 02:54:15.074] [main/INFO] [quark/]: Loading Module Item Sharing
+[14Aug2024 02:54:15.074] [main/INFO] [quark/]: Loading Module Right Click Armor
+[14Aug2024 02:54:15.075] [main/INFO] [quark/]: Loading Module Shulker Box Right Click
+[14Aug2024 02:54:15.075] [main/INFO] [quark/]: Loading Module Endermosh Music Disc
+[14Aug2024 02:54:15.076] [main/INFO] [quark/]: Loading Module Abacus
+[14Aug2024 02:54:15.076] [main/INFO] [quark/]: Loading Module Ambient Discs
+[14Aug2024 02:54:15.077] [main/INFO] [quark/]: Loading Module Ancient Tomes
+[14Aug2024 02:54:15.080] [main/INFO] [quark/]: Loading Module Bottled Cloud
+[14Aug2024 02:54:15.085] [main/INFO] [quark/]: Loading Module Camera
+[14Aug2024 02:54:15.085] [main/INFO] [quark/]: Loading Module Color Runes
+[14Aug2024 02:54:15.086] [main/INFO] [quark/]: Loading Module Pathfinder Maps
+[14Aug2024 02:54:15.087] [main/INFO] [quark/]: Loading Module Pickarang
+[14Aug2024 02:54:15.088] [main/INFO] [quark/]: Loading Module Seed Pouch
+[14Aug2024 02:54:15.088] [main/INFO] [quark/]: Loading Module Slime In A Bucket
+[14Aug2024 02:54:15.089] [main/INFO] [quark/]: Loading Module Trowel
+[14Aug2024 02:54:15.090] [main/INFO] [quark/]: Loading Module Skull Pikes
+[14Aug2024 02:54:15.091] [main/INFO] [quark/]: Loading Module Armed Armor Stands
+[14Aug2024 02:54:15.093] [main/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[14Aug2024 02:54:15.096] [main/INFO] [quark/]: Loading Module Axe Leaf Harvesting
+[14Aug2024 02:54:15.099] [main/INFO] [quark/]: Loading Module Better Elytra Rocket
+[14Aug2024 02:54:15.104] [main/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[14Aug2024 02:54:15.105] [main/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[14Aug2024 02:54:15.107] [main/INFO] [quark/]: Loading Module Dirt To Path
+[14Aug2024 02:54:15.108] [main/INFO] [quark/]: Loading Module Double Door Opening
+[14Aug2024 02:54:15.108] [main/INFO] [quark/]: Loading Module Dragon Scales
+[14Aug2024 02:54:15.109] [main/INFO] [quark/]: Loading Module Emotes
+[14Aug2024 02:54:15.110] [main/INFO] [quark/]: Loading Module Enhanced Ladders
+[14Aug2024 02:54:15.111] [main/INFO] [quark/]: Loading Module Glass Shard
+[14Aug2024 02:54:15.121] [main/INFO] [quark/]: Loading Module Hoe Harvesting
+[14Aug2024 02:54:15.122] [main/INFO] [quark/]: Loading Module Improved Sleeping
+[14Aug2024 02:54:15.124] [main/INFO] [quark/]: Loading Module Infinity Bucket
+[14Aug2024 02:54:15.125] [main/INFO] [quark/]: Loading Module Lava Bucket As Trash
+[14Aug2024 02:54:15.126] [main/INFO] [quark/]: Loading Module Lock Rotation
+[14Aug2024 02:54:15.133] [main/INFO] [quark/]: Loading Module More Banner Layers
+[14Aug2024 02:54:15.133] [main/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[14Aug2024 02:54:15.134] [main/INFO] [quark/]: Loading Module Pat The Dogs
+[14Aug2024 02:54:15.136] [main/INFO] [quark/]: Loading Module Poison Potato Usage
+[14Aug2024 02:54:15.137] [main/INFO] [quark/]: Loading Module Reacharound Placing
+[14Aug2024 02:54:15.139] [main/INFO] [quark/]: Loading Module Replace Scaffolding
+[14Aug2024 02:54:15.139] [main/INFO] [quark/]: Loading Module Sign Editing
+[14Aug2024 02:54:15.144] [main/INFO] [quark/]: Loading Module Simple Harvest
+[14Aug2024 02:54:15.145] [main/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[14Aug2024 02:54:15.146] [main/INFO] [quark/]: Loading Module Springy Slime
+[14Aug2024 02:54:15.146] [main/INFO] [quark/]: Loading Module Utility Recipes
+[14Aug2024 02:54:15.147] [main/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[14Aug2024 02:54:15.148] [main/INFO] [quark/]: Loading Module Big Dungeon
+[14Aug2024 02:54:15.148] [main/INFO] [quark/]: Loading Module Big Stone Clusters
+[14Aug2024 02:54:15.149] [main/INFO] [quark/]: Loading Module Biotite
+[14Aug2024 02:54:15.151] [main/INFO] [quark/]: Loading Module Blossom Trees
+[14Aug2024 02:54:15.151] [main/INFO] [quark/]: Loading Module Cave Roots
+[14Aug2024 02:54:15.155] [main/INFO] [quark/]: Loading Module Chorus Vegetation
+[14Aug2024 02:54:15.156] [main/INFO] [quark/]: Loading Module Crevices
+[14Aug2024 02:54:15.156] [main/INFO] [quark/]: Loading Module Deepslate
+[14Aug2024 02:54:15.157] [main/INFO] [quark/]: Loading Module Fairy Rings
+[14Aug2024 02:54:15.157] [main/INFO] [quark/]: Loading Module Mega Caves
+[14Aug2024 02:54:15.157] [main/INFO] [quark/]: Loading Module Monster Box
+[14Aug2024 02:54:15.158] [main/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[14Aug2024 02:54:15.158] [main/INFO] [quark/]: Loading Module New Stone Types
+[14Aug2024 02:54:15.159] [main/INFO] [quark/]: Loading Module Realistic World Gen
+[14Aug2024 02:54:15.160] [main/INFO] [quark/]: Loading Module Speleothems
+[14Aug2024 02:54:15.161] [main/INFO] [quark/]: Loading Module Spiral Spires
+[14Aug2024 02:54:15.163] [main/INFO] [quark/]: Loading Module Underground Clay
+[14Aug2024 02:54:15.163] [main/INFO] [quark/]: Loading Module Brimstone Underground Biome
+[14Aug2024 02:54:15.164] [main/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
+[14Aug2024 02:54:15.164] [main/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
+[14Aug2024 02:54:15.165] [main/INFO] [quark/]: Loading Module Glowshroom Underground Biome
+[14Aug2024 02:54:15.166] [main/INFO] [quark/]: Loading Module Lush Underground Biome
+[14Aug2024 02:54:15.166] [main/INFO] [quark/]: Loading Module Overgrown Underground Biome
+[14Aug2024 02:54:15.166] [main/INFO] [quark/]: Loading Module Permafrost Underground Biome
+[14Aug2024 02:54:15.167] [main/INFO] [quark/]: Loading Module Sandstone Underground Biome
+[14Aug2024 02:54:15.167] [main/INFO] [quark/]: Loading Module Slime Underground Biome
+[14Aug2024 02:54:15.168] [main/INFO] [quark/]: Loading Module Spider Nest Underground Biome
+[14Aug2024 02:54:15.170] [main/INFO] [quark/]: Loading Module Crabs
+[14Aug2024 02:54:15.171] [main/INFO] [quark/]: Loading Module Forgotten
+[14Aug2024 02:54:15.174] [main/INFO] [quark/]: Loading Module Foxhound
+[14Aug2024 02:54:15.175] [main/INFO] [quark/]: Loading Module Frogs
+[14Aug2024 02:54:15.176] [main/INFO] [quark/]: Loading Module Stonelings
+[14Aug2024 02:54:15.177] [main/INFO] [quark/]: Loading Module Toretoise
+[14Aug2024 02:54:15.178] [main/INFO] [quark/]: Loading Module Wraith
+[14Aug2024 02:54:15.179] [main/INFO] [quark/]: Loading Module Auto Walk Keybind
+[14Aug2024 02:54:15.179] [main/INFO] [quark/]: Loading Module Back Button Keybind
+[14Aug2024 02:54:15.180] [main/INFO] [quark/]: Loading Module Chest Searching
+[14Aug2024 02:54:15.180] [main/INFO] [quark/]: Loading Module Greener Grass
+[14Aug2024 02:54:15.180] [main/INFO] [quark/]: Loading Module Improved Mount Hud
+[14Aug2024 02:54:15.182] [main/INFO] [quark/]: Loading Module Improved Tooltips
+[14Aug2024 02:54:15.183] [main/INFO] [quark/]: Loading Module Usage Ticker
+[14Aug2024 02:54:15.183] [main/INFO] [quark/]: Loading Module Variant Animal Textures
+[14Aug2024 02:54:15.183] [main/INFO] [quark/]: Loading Module Backpack
+[14Aug2024 02:54:15.183] [main/INFO] [quark/]: Loading Module Crate
+[14Aug2024 02:54:15.184] [main/INFO] [quark/]: Loading Module Magnets
+[14Aug2024 02:54:15.184] [main/INFO] [quark/]: Loading Module Matrix Enchanting
+[14Aug2024 02:54:15.184] [main/INFO] [quark/]: Loading Module Pipes
+[14Aug2024 02:54:15.186] [main/INFO] [quark/]: Loading Module Totem Of Holding
+[14Aug2024 02:54:15.186] [main/INFO] [quark/]: Loading Module Adjustable Chat
+[14Aug2024 02:54:15.186] [main/INFO] [quark/]: Loading Module Custom Underground Biome
+[14Aug2024 02:54:15.186] [main/INFO] [quark/]: Loading Module Game Nerfs
+[14Aug2024 02:54:15.186] [main/INFO] [quark/]: Loading Module Microcrafting Helper
+[14Aug2024 02:54:15.187] [main/INFO] [quark/]: Loading Module Narrator Readout
+[14Aug2024 02:54:15.187] [main/INFO] [quark/]: Loading Module Overlay Shader
+[14Aug2024 02:54:15.187] [main/INFO] [quark/]: Loading Module Pallet
+[14Aug2024 02:54:15.187] [main/INFO] [quark/]: Loading Module Shiba
+[14Aug2024 02:54:15.243] [modloading-worker-2/INFO] [easy_steel/]: EasySteel common setup complete
+[14Aug2024 02:54:15.252] [modloading-worker-1/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[14Aug2024 02:54:15.315] [modloading-worker-1/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod/]: Overspawning lammergeiers...
+[14Aug2024 02:54:15.328] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[14Aug2024 02:54:15.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
+[14Aug2024 02:54:15.527] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:crab, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.544] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:foxhound, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.546] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:frog, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.596] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:shiba, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.633] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wrapped, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.674] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:toretoise, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.684] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:leash_knot_fake, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.703] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:forgotten, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.705] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wraith, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.732] [modloading-worker-2/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:stoneling, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.803] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:creeper_minion, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.812] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:endersoul_clone, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.812] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_creeper, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.816] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_enderman, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.816] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_skeleton, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.816] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_snow_golem, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.817] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_zombie, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.824] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:spider_pig, use EntityAttributeCreationEvent instead.
+[14Aug2024 02:54:15.890] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[14Aug2024 02:54:15.892] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[14Aug2024 02:54:15.896] [modloading-worker-0/INFO] [STDOUT/]: [inzhefop.extrautilitiesrebirth.procedures.OnGameStartProcedure:executeProcedure:21]: Extra Utilities Reborn successfully loaded!
+[14Aug2024 02:54:15.898] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[14Aug2024 02:54:15.898] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[14Aug2024 02:54:15.920] [modloading-worker-2/INFO] [easy_steel/]: Hello world from EasySteel
+[14Aug2024 02:54:15.921] [modloading-worker-2/INFO] [easy_steel/]: EasySteel IMC [Hello world]
+[14Aug2024 02:54:15.998] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Attempting to register unregistered biomes to the biome dictionary. This can be disabled via config.
+[14Aug2024 02:54:16.013] [modloading-worker-0/INFO] [Waila/]: Registered plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[14Aug2024 02:54:16.032] [modloading-worker-0/INFO] [Waila/]: Registered plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[14Aug2024 02:54:16.046] [modloading-worker-0/INFO] [Waila/]: Registered plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[14Aug2024 02:54:16.214] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Found status: UP_TO_DATE Current: 1.12.1.103 Target: null
+[14Aug2024 02:54:16.215] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betteranimationscollection] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/betteranimationscollection.json
+[14Aug2024 02:54:16.230] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betteranimationscollection] Found status: UP_TO_DATE Current: 1.2.4 Target: null
+[14Aug2024 02:54:16.231] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
+[14Aug2024 02:54:16.244] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.2.6 Target: null
+[14Aug2024 02:54:16.244] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[14Aug2024 02:54:16.306] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered cavebiomeapi:caves to structure_gel:[]
+[14Aug2024 02:54:16.306] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered cavesandcliffs:lush_caves to structure_gel:[]
+[14Aug2024 02:54:16.307] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered cavesandcliffs:grove to structure_gel:[]
+[14Aug2024 02:54:16.307] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered cavesandcliffs:frozen_peaks to structure_gel:[]
+[14Aug2024 02:54:16.307] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered cavesandcliffs:jagged_peaks to structure_gel:[]
+[14Aug2024 02:54:16.308] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered cavesandcliffs:dripstone_caves to structure_gel:[]
+[14Aug2024 02:54:16.308] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered cavesandcliffs:meadow to structure_gel:[]
+[14Aug2024 02:54:16.308] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered cavesandcliffs:stony_peaks to structure_gel:[]
+[14Aug2024 02:54:16.309] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered zombie_extreme:dead_sand to structure_gel:[]
+[14Aug2024 02:54:16.309] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Registered cavesandcliffs:snowy_slopes to structure_gel:[]
+[14Aug2024 02:54:16.312] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for farlanders:small_house
+[14Aug2024 02:54:16.313] [modloading-worker-1/INFO] [ModdingLegacy/structure_gel/]: Reloading biome config for farlanders:farlander_village
+[14Aug2024 02:54:16.804] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: AHEAD Current: v1.9.10.1 Target: null
+[14Aug2024 02:54:16.804] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
+[14Aug2024 02:54:17.126] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 403 for URL: https://mrcrayfish.com/modupdatejson?id=configured
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2001) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1996) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1995) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1557) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1541) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:250) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:163) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: https://mrcrayfish.com/modupdatejson?id=configured
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1945) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1541) ~[?:?]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:145) ~[forge:?]
+	... 3 more
+[14Aug2024 02:54:17.128] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obfuscate] Starting version check at https://mrcrayfish.com/modupdatejson?id=obfuscate
+[14Aug2024 02:54:17.372] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 403 for URL: https://mrcrayfish.com/modupdatejson?id=obfuscate
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2001) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1996) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1995) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1557) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1541) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:250) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:163) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: https://mrcrayfish.com/modupdatejson?id=obfuscate
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1945) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1541) ~[?:?]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:145) ~[forge:?]
+	... 3 more
+[14Aug2024 02:54:17.380] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vehicle] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/vehicle/update.json
+[14Aug2024 02:54:17.580] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vehicle] Found status: BETA Current: 0.45.2 Target: null
+[14Aug2024 02:54:17.580] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[14Aug2024 02:54:17.600] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: UP_TO_DATE Current: 3.2.1.308 Target: null
+[14Aug2024 02:54:17.601] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs.json
+[14Aug2024 02:54:17.612] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Found status: UP_TO_DATE Current: 2.3.1 Target: null
+[14Aug2024 02:54:17.612] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
+[14Aug2024 02:54:17.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: UP_TO_DATE Current: 1.1.1 Target: null
+[14Aug2024 02:54:17.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[14Aug2024 02:54:17.884] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 403 for URL: https://mrcrayfish.com/modupdatejson?id=cfm
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:2001) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1996) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1995) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1557) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1541) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:250) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:163) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: https://mrcrayfish.com/modupdatejson?id=cfm
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1945) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1541) ~[?:?]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:145) ~[forge:?]
+	... 3 more
+[14Aug2024 02:54:17.887] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[14Aug2024 02:54:17.900] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 1.0.15 Target: null
+[14Aug2024 02:54:17.900] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Aug2024 02:54:18.063] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.42 Target: null
+[14Aug2024 02:54:18.063] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dsurround] Starting version check at https://raw.githubusercontent.com/OreCruncher/DynamicSurroundings2/master/version.json
+[14Aug2024 02:54:18.279] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dsurround] Found status: AHEAD Current: 4.0.5.0 Target: null
+[14Aug2024 02:54:18.279] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://maxhenkel.de/update/corpse.json
+[14Aug2024 02:54:19.721] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: null
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
+[14Aug2024 02:54:19.721] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [farlanders] Starting version check at http://changelogs.moddinglegacy.com/the-farlanders.json
+[14Aug2024 02:54:20.132] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [farlanders] Found status: UP_TO_DATE Current: 1.3.9 Target: null
+[14Aug2024 02:54:28.059] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Aug2024 02:54:28.931] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [deathhistory, player] and [deathhistory, player_uuid] with inputs: [dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14Aug2024 02:54:28.949] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14Aug2024 02:54:28.951] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Aug2024 02:54:28.952] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Aug2024 02:54:28.954] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14Aug2024 02:54:28.956] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Aug2024 02:54:28.964] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Zombie Extreme 1.16.5 1.8.2.jar, useful_backpacks-1.16.5-1.12.1.103.jar, BetterAnimationsCollection-v1.2.4-1.16.5-Forge.jar, EasySteel-Forge-1.16.5-1.2.23.jar, betteranimalmodels-1.16.5-5.6.0-forge.jar, cgm-1.2.6-1.16.5.jar, jei-1.16.5-7.8.0.1012.jar, simplylight-1.16.5-1.4.2-build.32.jar, cavesandcliffs-1.16.5-7.2.0.jar, torohealth-1.16.4-forge-4.jar, SpartanShields-1.16.5-2.1.2.jar, Mantle-1.16.5-1.6.157.jar, Xaeros_Minimap_24.2.1_Forge_1.16.5.jar, XaerosWorldMap_1.38.8_Forge_1.16.5.jar, AutoRegLib-1.6-49.jar, [1.16.5] SecurityCraft v1.9.10.1.jar, configured-1.5.4-1.16.5.jar, decorative_blocks-1.16.4-1.7.2.jar, obfuscate-0.6.3-1.16.5.jar, betteranimalsplus-1.16.5-11.0.10-forge.jar, MutantBeasts-1.16.4-1.1.3.jar, u_team_core-forge-1.16.5-3.2.1.308.jar, cavebiomeapi-1.16.5-1.4.2.jar, SpartanWeaponry-1.16.5-2.2.2.jar, mcw-doors-1.1.1forge-mc1.16.5.jar, architectury-1.32.68.jar, Hwyla-forge-1.10.11-B78_1.16.2.jar, cloth-config-4.17.101-forge.jar, PuzzlesLib-v1.0.15-1.16.5-Forge.jar, enhancedcelestials-2.0.9-1.16.5.jar, forge-1.16.5-36.2.42-universal.jar, Quark-r2.4-322.jar, Ceramics-1.16.5-1.6.3.jar, DynamicSurroundings-1.16.5-4.0.5.0.jar, structure_gel-1.16.5-1.7.8.jar, corpse-1.16.5-1.0.6.jar, extra-utilities-reborn-1.7.3-1.16.5.jar, DungeonsArise-1.16.5-2.1.49-beta.jar, farlanders-1.16.4-1.3.9.jar, cfm-7.0.0pre22-1.16.3.jar, decocraft-3.0.0.4-beta-1.16.5 .jar, vehicle-mod-0.45.2-1.16.3.jar, mcw-roofs-2.3.1-mc1.16.5forge.jar
+[14Aug2024 02:54:32.259] [Worker-Main-6/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag forge:frosty_gen_tag as it is missing following references: minecraft:frosted_ice (from extra-utilities-reborn-1.7.3-1.16.5.jar)
+[14Aug2024 02:54:32.266] [Worker-Main-6/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag forge:pink_items as it is missing following references: minecraft:potted_pink_tulip (from extra-utilities-reborn-1.7.3-1.16.5.jar),minecraft:pink_wall_banner (from extra-utilities-reborn-1.7.3-1.16.5.jar)
+[14Aug2024 02:54:32.410] [Worker-Main-6/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cfm:craft_sofa
+com.google.gson.JsonSyntaxException: Invalid vehicle entity: vehicle:sofa
+	at com.mrcrayfish.vehicle.crafting.VehicleRecipeSerializer.read(VehicleRecipeSerializer.java:48) ~[vehicle:0.45.2-1.16.3]
+	at com.mrcrayfish.vehicle.crafting.VehicleRecipeSerializer.func_199425_a_(VehicleRecipeSerializer.java:23) ~[vehicle:0.45.2-1.16.3]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216873_a(SourceFile:53) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216872_a(SourceFile:50) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[14Aug2024 02:54:32.451] [Worker-Main-6/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:boost_ramp
+com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:141) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:252) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216873_a(SourceFile:53) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216872_a(SourceFile:50) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[14Aug2024 02:54:32.478] [Worker-Main-6/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:steep_boost_ramp
+com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:141) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:252) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216873_a(SourceFile:53) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216872_a(SourceFile:50) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[14Aug2024 02:54:32.517] [Worker-Main-6/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:boost_pad
+com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+	at net.minecraft.item.crafting.ShapedRecipe.func_222129_c(ShapedRecipe.java:262) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_199798_a(ShapedRecipe.java:261) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:281) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216873_a(SourceFile:53) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216872_a(SourceFile:50) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[14Aug2024 02:54:32.593] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 14 recipes
+[14Aug2024 02:54:33.077] [Worker-Main-6/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[14Aug2024 02:54:33.156] [Worker-Main-6/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[14Aug2024 02:54:34.226] [Worker-Main-6/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table securitycraft:blocks/secure_redstone_interface
+java.lang.NullPointerException: null
+	at net.minecraft.loot.RandomRanges.func_216130_a(SourceFile:24) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:186) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:180) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:249) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:874) ~[forge:?]
+	at net.minecraft.loot.LootTableManager.lambda$apply$0(LootTableManager.java:40) ~[?:?]
+	at java.util.HashMap.forEach(HashMap.java:1337) ~[?:?]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:38) ~[?:?]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:16) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216873_a(SourceFile:53) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216872_a(SourceFile:50) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[14Aug2024 02:54:34.482] [Worker-Main-6/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[14Aug2024 02:54:34.890] [Worker-Main-6/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement zombie_extreme:zombie_extreme_begin: Task Advancement{parentId=zombie_extreme:zombie_extreme_begin, display=net.minecraft.advancements.DisplayInfo@14b55d7b, rewards=AdvancementRewards{experience=1, loot=[], recipes=[], function=net.minecraft.command.FunctionObject$CacheableFunction@5bebc49d}, criteria={zombie_extreme_begin=net.minecraft.advancements.Criterion@3658d174}, requirements=[[zombie_extreme_begin]]}
+[14Aug2024 02:54:34.935] [Worker-Main-6/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3079 advancements
+[14Aug2024 02:54:43.371] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[14Aug2024 02:54:43.371] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Aug2024 02:54:43.372] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Aug2024 02:54:43.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Aug2024 02:54:43.492] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Aug2024 02:54:43.529] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[14Aug2024 02:54:43.618] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14Aug2024 02:54:43.618] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[14Aug2024 02:54:43.619] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14Aug2024 02:54:43.619] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[14Aug2024 02:54:43.840] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Aug2024 02:54:43.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Aug2024 02:54:46.424] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Aug2024 02:54:46.425] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Aug2024 02:54:46.425] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Aug2024 02:54:46.425] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Aug2024 02:54:46.426] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Aug2024 02:54:46.645] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Aug2024 02:54:46.676] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntitySongbird from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 02:54:46.931] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityPheasant from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 02:54:46.947] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityBoar from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 02:54:46.982] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntitySquirrel from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 02:54:46.983] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityDeer from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 02:54:47.061] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3086 ms
+[14Aug2024 02:54:47.061] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.425s)! For help, type "help"
+[14Aug2024 02:54:47.122] [Server thread/INFO] [easy_steel/]: EasySteel server setup complete
+[14Aug2024 02:54:47.126] [Server thread/INFO] [Spartan Weaponry/]: Starting up Server for Spartan Weaponry!
+[14Aug2024 02:55:10.169] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@298608f8
+[14Aug2024 02:55:10.233] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: AVich0[/127.37.233.170:49535] logged in with entity id 56 at (199.5, 65.05000000000001, 397.5)
+[14Aug2024 02:55:10.276] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: AVich0 joined the game
+[14Aug2024 02:55:10.384] [Server thread/INFO] [Waila/]: Syncing config to AVich0 (bd8c12cf-7463-341d-bba0-fbc579e7e685)
+[14Aug2024 02:55:11.035] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityLamprey from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 02:55:11.036] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityLamprey from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[14Aug2024 02:55:11.198] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityFreshwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 02:55:11.199] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityFreshwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[14Aug2024 02:55:11.244] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityDragonfly from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 02:55:11.245] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityDragonfly from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[14Aug2024 02:55:11.756] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityCrab from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 02:55:11.757] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityCrab from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[14Aug2024 02:55:12.072] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityGoose from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 02:59:01.450] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@2f12b066
+[14Aug2024 02:59:01.490] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Poyo[/127.53.51.87:53395] logged in with entity id 1061 at (221.04026078060517, 84.5, 436.58047350058905)
+[14Aug2024 02:59:01.501] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Poyo joined the game
+[14Aug2024 02:59:01.552] [Server thread/INFO] [Waila/]: Syncing config to Poyo (273f0815-8e33-34db-93ce-e92fc8751b21)
+[14Aug2024 02:59:24.000] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityButterfly from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 02:59:24.001] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityButterfly from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[14Aug2024 02:59:32.394] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> y esta mierda de árbol
+[14Aug2024 02:59:34.157] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> ajajajjajjajaj
+[14Aug2024 02:59:46.488] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> son para palos
+[14Aug2024 03:00:03.896] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> creo yo, ayer se le cerro a diego?
+[14Aug2024 03:00:08.753] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> sii
+[14Aug2024 03:00:20.497] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> a entonces era para eso
+[14Aug2024 03:02:00.765] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/1647, l='ServerLevel[world]', x=261.15, y=58.45, z=389.76]
+[14Aug2024 03:03:36.688] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Poyo lost connection: Disconnected
+[14Aug2024 03:03:36.689] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Poyo left the game
+[14Aug2024 03:03:47.471] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@7d202841
+[14Aug2024 03:03:47.524] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Poyo[/127.53.51.87:59921] logged in with entity id 2497 at (220.11338942731075, 64.0, 383.77616689949485)
+[14Aug2024 03:03:47.533] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Poyo joined the game
+[14Aug2024 03:03:47.565] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/1647, l='ServerLevel[world]', x=261.15, y=58.45, z=389.76]
+[14Aug2024 03:03:47.566] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/2075, l='ServerLevel[world]', x=261.18, y=58.13, z=389.66]
+[14Aug2024 03:03:47.590] [Server thread/INFO] [Waila/]: Syncing config to Poyo (273f0815-8e33-34db-93ce-e92fc8751b21)
+[14Aug2024 03:04:39.638] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> mas weon asi no funciona el hacha po
+[14Aug2024 03:04:56.023] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> si ese diego qlo hace puras wea
+[14Aug2024 03:04:57.446] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> jsjjss
+[14Aug2024 03:05:05.815] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> como te fue hoy en clases
+[14Aug2024 03:05:17.711] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> mañana doy el exámen para ver si me puedo exhimir de algún ingles
+[14Aug2024 03:05:31.187] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> bien, tuve una ventana de 4 horas
+[14Aug2024 03:05:35.025] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> csm ajaja
+[14Aug2024 03:05:56.062] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> cambiaron una clase que solo tome para no tener esa ventana
+[14Aug2024 03:07:58.396] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> hay toque de seda en los aldeanos??
+[14Aug2024 03:08:09.660] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> creo que no
+[14Aug2024 03:09:19.270] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> cachate como se llena de monos el mapa wn
+[14Aug2024 03:09:45.898] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> no
+[14Aug2024 03:09:54.258] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> apreta tab
+[14Aug2024 03:09:57.857] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> se llena en el mini mapa
+[14Aug2024 03:10:01.872] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> a eso me referia ajaj
+[14Aug2024 03:11:44.930] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityTarantula from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 03:11:49.762] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> weeeeeeee
+[14Aug2024 03:12:29.393] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> aun tienes el cubo?
+[14Aug2024 03:12:35.114] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> cual
+[14Aug2024 03:12:59.821] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> lo del grupo
+[14Aug2024 03:13:18.373] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> aaa si
+[14Aug2024 03:13:28.846] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> en con k
+[14Aug2024 03:13:42.822] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> ooo wena
+[14Aug2024 03:14:07.445] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[14Aug2024 03:19:29.292] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: AVich0 was kicked for floating too long!
+[14Aug2024 03:19:29.293] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: AVich0 lost connection: Flying is not enabled on this server
+[14Aug2024 03:19:29.294] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: AVich0 left the game
+[14Aug2024 03:19:29.353] [Server thread/WARN] [net.minecraft.network.NetworkManager/]: handleDisconnection() called twice
+[14Aug2024 03:19:45.220] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@3162263e
+[14Aug2024 03:19:45.259] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: AVich0[/127.37.233.170:54651] logged in with entity id 7586 at (207.1352438141157, 67.11398369728828, 411.10372667791944)
+[14Aug2024 03:19:45.272] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: AVich0 joined the game
+[14Aug2024 03:19:45.320] [Server thread/INFO] [Waila/]: Syncing config to AVich0 (bd8c12cf-7463-341d-bba0-fbc579e7e685)
+[14Aug2024 03:19:55.140] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: AVich0 was kicked for floating too long!
+[14Aug2024 03:19:55.191] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: AVich0 lost connection: Flying is not enabled on this server
+[14Aug2024 03:19:55.192] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: AVich0 left the game
+[14Aug2024 03:21:37.671] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@6e166b45
+[14Aug2024 03:21:37.705] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: AVich0[/127.37.233.170:33399] logged in with entity id 7955 at (207.1352438141157, 65.0, 411.10372667791944)
+[14Aug2024 03:21:37.713] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: AVich0 joined the game
+[14Aug2024 03:21:37.750] [Server thread/INFO] [Waila/]: Syncing config to AVich0 (bd8c12cf-7463-341d-bba0-fbc579e7e685)
+[14Aug2024 03:21:59.353] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> gracias
+[14Aug2024 03:22:05.051] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> de nada
+[14Aug2024 03:22:25.063] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> oye te pude copiar el material de tu sala de cofres
+[14Aug2024 03:22:35.296] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> si
+[14Aug2024 03:23:19.290] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=210, y=65, z=408} BlockPos{x=211, y=63, z=406}
+[14Aug2024 03:23:19.341] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=210, y=65, z=408} BlockPos{x=211, y=63, z=406}
+[14Aug2024 03:23:19.392] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=210, y=65, z=408} BlockPos{x=211, y=63, z=406}
+[14Aug2024 03:24:54.946] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=228, y=70, z=393} BlockPos{x=228, y=70, z=394}
+[14Aug2024 03:24:54.990] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=228, y=70, z=393} BlockPos{x=228, y=70, z=394}
+[14Aug2024 03:24:55.040] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=228, y=70, z=393} BlockPos{x=228, y=70, z=394}
+[14Aug2024 03:24:55.090] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=228, y=71, z=393} BlockPos{x=228, y=70, z=394}
+[14Aug2024 03:24:55.142] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=228, y=71, z=393} BlockPos{x=228, y=70, z=394}
+[14Aug2024 03:26:42.162] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2335ms or 46 ticks behind
+[14Aug2024 03:30:01.862] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@c50fcd5
+[14Aug2024 03:30:01.890] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: dieggox[/127.215.16.98:51523] logged in with entity id 10750 at (443.402141392941, 11.0, 289.5461022220807)
+[14Aug2024 03:30:01.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: dieggox joined the game
+[14Aug2024 03:30:01.911] [Server thread/INFO] [Waila/]: Syncing config to dieggox (0f3211e8-4d23-38e7-b372-0df7b8283720)
+[14Aug2024 03:30:02.362] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityBadger from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 03:31:09.800] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityTurkey from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 03:31:39.651] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> vas a cambiar el material de ru casa?
+[14Aug2024 03:31:48.253] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> voy a cambiar mi casa entera jajaj
+[14Aug2024 03:31:54.749] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> no se, algo tenia que no me gustaba
+[14Aug2024 03:32:00.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> por?
+[14Aug2024 03:32:26.451] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> le faltaba el toque hogareño, capaz muy grande era
+[14Aug2024 03:33:28.267] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityGoat from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 03:34:53.773] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2047ms or 40 ticks behind
+[14Aug2024 03:34:57.983] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> vamo a atar esa wea o no
+[14Aug2024 03:35:04.006] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> sipoo
+[14Aug2024 03:35:06.714] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> vamo altoke
+[14Aug2024 03:35:22.712] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> ya
+[14Aug2024 03:37:05.066] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityFeralWolf from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 03:43:19.463] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> ya
+[14Aug2024 03:43:42.521] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> pillaron la wea?
+[14Aug2024 03:43:46.537] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> sia
+[14Aug2024 03:44:34.189] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> dnd estan
+[14Aug2024 03:45:22.056] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> estas weas tienen mina
+[14Aug2024 03:45:27.944] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> no
+[14Aug2024 03:45:35.715] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> pero ctm
+[14Aug2024 03:45:42.344] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> si tengo fortuna mierda
+[14Aug2024 03:46:07.940] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Poyo lost connection: Disconnected
+[14Aug2024 03:46:07.940] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Poyo left the game
+[14Aug2024 03:46:53.373] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> y este weon
+[14Aug2024 03:47:00.039] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> casi lo mato asda
+[14Aug2024 03:47:46.938] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> y esto?
+[14Aug2024 03:47:56.026] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> tu regalo
+[14Aug2024 03:48:02.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> uwu{}
+[14Aug2024 03:48:21.966] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> no tendra nda malo?
+[14Aug2024 03:48:25.088] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> nono
+[14Aug2024 03:48:32.986] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> este wn de pollo rompio la mita
+[14Aug2024 03:48:46.250] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Server] vo culiao que no sabes decir no rompas
+[14Aug2024 03:48:53.687] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> pa que lo rompes po ql
+[14Aug2024 03:48:55.043] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Server] yo pensaba que era para sacar toda la wea
+[14Aug2024 03:48:55.168] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> oe
+[14Aug2024 03:49:03.652] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> te moriste
+[14Aug2024 03:49:07.139] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Server] si
+[14Aug2024 03:49:07.395] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> te puse awa
+[14Aug2024 03:49:17.718] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> si tenias como 5 corazones aun
+[14Aug2024 03:49:19.442] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Server] me voy a dormir chao
+[14Aug2024 03:49:23.799] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> no wei po
+[14Aug2024 03:49:30.619] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> no moriste wm
+[14Aug2024 03:49:43.461] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> wenaaa grax
+[14Aug2024 03:49:48.688] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> <3
+[14Aug2024 03:49:59.637] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> no tenias vdd
+[14Aug2024 03:50:13.905] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> nop
+[14Aug2024 03:50:18.175] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> oe pollo metete a la wea
+[14Aug2024 03:50:19.488] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> wena
+[14Aug2024 03:51:40.403] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> hay una wea que tu puedes colocarele a la mochila que te recoga un material automaticamente
+[14Aug2024 03:51:54.012] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> es una pregunta
+[14Aug2024 03:51:56.342] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> o afirmacion
+[14Aug2024 03:52:06.440] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> afirmacion
+[14Aug2024 03:52:11.457] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> wena
+[14Aug2024 03:53:29.144] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[14Aug2024 03:53:29.153] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: set bloodmoon<--[HERE]
+[14Aug2024 03:53:30.249] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> has tu casa po
+[14Aug2024 03:53:41.741] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Server] me voy a meter pa matar la wea
+[14Aug2024 03:53:48.488] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> ejo
+[14Aug2024 03:55:59.741] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> oye se pueden hacer las manzanas encantadas?
+[14Aug2024 03:56:06.210] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@42c6393
+[14Aug2024 03:56:06.233] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Poyo[/127.53.51.87:41053] logged in with entity id 22030 at (218.510311628087, 64.0, 383.91577274937276)
+[14Aug2024 03:56:06.240] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Poyo joined the game
+[14Aug2024 03:56:06.262] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/21378, l='ServerLevel[world]', x=201.72, y=60.75, z=430.51]
+[14Aug2024 03:56:06.264] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20793, l='ServerLevel[world]', x=215.70, y=55.25, z=419.35]
+[14Aug2024 03:56:06.271] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/18589, l='ServerLevel[world]', x=270.40, y=61.42, z=394.25]
+[14Aug2024 03:56:06.293] [Server thread/INFO] [Waila/]: Syncing config to Poyo (273f0815-8e33-34db-93ce-e92fc8751b21)
+[14Aug2024 03:56:12.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> solo doradas
+[14Aug2024 03:56:45.091] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> ya vamos
+[14Aug2024 03:56:47.311] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> quien hizo lo que le gusta a diego
+[14Aug2024 03:57:01.388] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> yo
+[14Aug2024 03:57:27.192] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> vamo
+[14Aug2024 03:57:28.541] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> que haces
+[14Aug2024 03:57:38.561] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> xaero-waypoint:STRONHOLD:S:-1512:~:8:2:false:0:Internal-overworld-waypoints
+[14Aug2024 03:57:52.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> lleven las weas de antiradon
+[14Aug2024 03:57:55.856] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> o el traje
+[14Aug2024 03:58:00.341] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> y un bote
+[14Aug2024 03:58:00.590] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> que es eso
+[14Aug2024 03:58:11.387] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> bote paque
+[14Aug2024 03:58:21.191] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> porque está debajo de un bioma de radiacion
+[14Aug2024 03:58:26.456] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> y sin eso te mueres
+[14Aug2024 03:58:30.406] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> ahh ctm
+[14Aug2024 03:58:41.409] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> tienen traje
+[14Aug2024 03:58:42.955] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> yo no
+[14Aug2024 03:58:51.508] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> se me perdio
+[14Aug2024 03:58:52.989] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> es el chemical protetction
+[14Aug2024 03:59:02.414] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> o no
+[14Aug2024 03:59:10.603] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> pero solo con el casco sirve?
+[14Aug2024 03:59:15.162] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: AVich0 moved wrongly!
+[14Aug2024 03:59:27.757] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> sexoo
+[14Aug2024 04:00:15.105] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> es este
+[14Aug2024 04:00:15.746] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> tengo traje
+[14Aug2024 04:00:16.401] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> ?
+[14Aug2024 04:00:18.990] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> en mi casa
+[14Aug2024 04:00:25.714] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> saca noma
+[14Aug2024 04:00:59.253] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> vicho tienes
+[14Aug2024 04:01:12.466] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> ?
+[14Aug2024 04:01:16.890] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> si ya lo hize
+[14Aug2024 04:01:21.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> yaya
+[14Aug2024 04:01:39.925] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> hice*
+[14Aug2024 04:03:16.423] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> ya toy
+[14Aug2024 04:03:43.595] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> ontan
+[14Aug2024 04:03:58.113] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> perdomn
+[14Aug2024 04:04:14.472] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> se fueron
+[14Aug2024 04:04:16.951] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> sui
+[14Aug2024 04:04:24.898] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> psasa cords
+[14Aug2024 04:04:36.516] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> camina pal waypoint nomas po
+[14Aug2024 04:04:39.652] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> o no sabi agregarlo
+[14Aug2024 04:04:50.392] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> sisi lo tengo
+[14Aug2024 04:04:54.110] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: AVich0 moved too quickly! -1.2364457592802864,-10.000834007841846,0.7893244850877181
+[14Aug2024 04:05:05.866] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityLammergeier from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 04:06:07.383] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[14Aug2024 04:06:19.595] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityMoose from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 04:07:03.128] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityBobbitWorm from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 04:07:03.129] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityJellyfish from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 04:07:03.129] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityJellyfish from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[14Aug2024 04:07:09.828] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityBarracuda from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[14Aug2024 04:07:22.429] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityFlyingFish from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 04:07:22.430] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityFlyingFish from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[14Aug2024 04:07:27.178] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityShark from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 04:07:44.928] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityWhale from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 04:07:48.628] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntitySaltwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 04:07:48.628] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntitySaltwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[14Aug2024 04:07:53.227] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityOctopus from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 04:09:10.184] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: dieggox has made the advancement [Dead Sea]
+[14Aug2024 04:09:10.533] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityHorseshoeCrab from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[14Aug2024 04:09:10.533] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class dev.itsmeow.betteranimalsplus.common.entity.EntityHorseshoeCrab from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[14Aug2024 04:09:33.771] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> llegaron?
+[14Aug2024 04:09:36.488] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> si
+[14Aug2024 04:09:51.837] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: dieggox has made the advancement [Eye Spy]
+[14Aug2024 04:10:58.869] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> toy en el portal
+[14Aug2024 04:11:06.934] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: AVich0 has made the advancement [Eye Spy]
+[14Aug2024 04:14:51.519] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> aca taba la wea po
+[14Aug2024 04:15:02.547] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> no morimo
+[14Aug2024 04:15:32.344] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> vixo
+[14Aug2024 04:15:32.634] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> y vicho
+[14Aug2024 04:15:34.259] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> ontas{
+[14Aug2024 04:15:40.333] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> oe pollo
+[14Aug2024 04:15:43.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> me puedo sacar esta wea
+[14Aug2024 04:15:44.697] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> que
+[14Aug2024 04:15:46.024] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> si
+[14Aug2024 04:16:14.995] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> por donde pasaron?
+[14Aug2024 04:16:47.405] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> ya
+[14Aug2024 04:17:32.092] [Server thread/WARN] [net.minecraft.entity.boss.dragon.phase.StrafePlayerPhase/]: Skipping player strafe phase because no player was found
+[14Aug2024 04:17:32.133] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3806ms or 76 ticks behind
+[14Aug2024 04:17:33.998] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> vamo
+[14Aug2024 04:17:44.492] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> ya entre
+[14Aug2024 04:17:47.989] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: dieggox has made the advancement [The End?]
+[14Aug2024 04:17:51.245] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: AVich0 has made the advancement [The End?]
+[14Aug2024 04:20:39.481] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: dieggox was kicked for floating too long!
+[14Aug2024 04:20:39.532] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: dieggox lost connection: Flying is not enabled on this server
+[14Aug2024 04:20:39.532] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: dieggox left the game
+[14Aug2024 04:20:51.851] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@7284121b
+[14Aug2024 04:20:51.873] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: dieggox[/127.215.16.98:40399] logged in with entity id 33103 at (-15.627682217293042, 60.65993887686782, -11.506424655424151)
+[14Aug2024 04:20:51.876] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: dieggox joined the game
+[14Aug2024 04:20:51.889] [Server thread/INFO] [Waila/]: Syncing config to dieggox (0f3211e8-4d23-38e7-b372-0df7b8283720)
+[14Aug2024 04:24:26.162] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: AVich0 has made the advancement [Free the End]
+[14Aug2024 04:24:44.525] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> wennaa
+[14Aug2024 04:24:58.080] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: dieggox has reached the goal [The Next Generation]
+[14Aug2024 04:25:05.131] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Poyo has reached the goal [The Next Generation]
+[14Aug2024 04:25:09.261] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> oye qye wea ese ender
+[14Aug2024 04:25:10.330] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: AVich0 has reached the goal [The Next Generation]
+[14Aug2024 04:25:33.076] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> que wea este portal oye diego
+[14Aug2024 04:25:34.932] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> tu que eri
+[14Aug2024 04:25:37.500] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> a
+[14Aug2024 04:26:35.412] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> pa la wea de las elytras po
+[14Aug2024 04:27:56.281] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: dieggox was kicked for floating too long!
+[14Aug2024 04:27:56.332] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: dieggox lost connection: Flying is not enabled on this server
+[14Aug2024 04:27:56.332] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: dieggox left the game
+[14Aug2024 04:28:08.598] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@473eb01b
+[14Aug2024 04:28:08.629] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: dieggox[/127.215.16.98:45609] logged in with entity id 34437 at (9.238264746219054, 66.8318781009292, 57.75642560503874)
+[14Aug2024 04:28:08.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: dieggox joined the game
+[14Aug2024 04:28:08.644] [Server thread/INFO] [Waila/]: Syncing config to dieggox (0f3211e8-4d23-38e7-b372-0df7b8283720)
+[14Aug2024 04:28:16.613] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> yienen comida}
+[14Aug2024 04:28:49.040] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Poyo has made the advancement [Remote Getaway]
+[14Aug2024 04:28:53.350] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> vamo
+[14Aug2024 04:28:58.482] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: dieggox has made the advancement [Remote Getaway]
+[14Aug2024 04:28:58.713] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: AVich0 has made the advancement [Remote Getaway]
+[14Aug2024 04:32:59.410] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['End Stone'/35285, l='ServerLevel[world]', x=576.42, y=59.28, z=974.29]
+[14Aug2024 04:32:59.714] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['End Stone'/35251, l='ServerLevel[world]', x=578.53, y=57.00, z=972.13]
+[14Aug2024 04:33:50.795] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> oigan de ahi
+[14Aug2024 04:33:54.364] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> quien me presta su correo
+[14Aug2024 04:33:59.165] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> tengo que hacer una nueva cuenta
+[14Aug2024 04:34:02.334] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> para no perder cosas
+[14Aug2024 04:34:11.351] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Poyo> ya que hemos usado el 75% de espacio
+[14Aug2024 04:35:40.243] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> yo tengo varios correos
+[14Aug2024 04:37:05.272] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> traen ohetes
+[14Aug2024 04:37:14.212] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> nop
+[14Aug2024 04:38:42.589] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> ctm
+[14Aug2024 04:39:20.683] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Poyo lost connection: Disconnected
+[14Aug2024 04:39:20.683] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Poyo left the game
+[14Aug2024 04:39:51.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> y esow
+[14Aug2024 04:40:08.176] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> ahi parece pollo sw deaconecto
+[14Aug2024 04:41:36.353] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> np hay nada
+[14Aug2024 04:43:24.516] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> ctm
+[14Aug2024 04:43:30.606] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> si te caes
+[14Aug2024 04:43:34.264] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> desconctate altok
+[14Aug2024 04:43:37.562] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> casi me mori
+[14Aug2024 04:43:40.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> si te vi
+[14Aug2024 04:43:51.084] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> c es ote digo si te caes descnectate altok
+[14Aug2024 04:44:01.117] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> yap
+[14Aug2024 04:44:10.710] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> asi te podemos salvar
+[14Aug2024 04:44:19.398] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [AVich0: Teleported AVich0 to dieggox]
+[14Aug2024 04:45:20.923] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> ya me voy
+[14Aug2024 04:45:34.475] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> ya
+[14Aug2024 04:45:34.574] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <AVich0> mañana me tengo despertar a las 8:30
+[14Aug2024 04:45:39.383] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> duro
+[14Aug2024 04:45:42.034] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> chaoo
+[14Aug2024 04:45:45.711] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <dieggox> bnas noches
+[14Aug2024 04:46:26.533] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: AVich0 lost connection: Disconnected
+[14Aug2024 04:46:26.533] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: AVich0 left the game
+[14Aug2024 04:53:38.282] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: dieggox lost connection: Disconnected
+[14Aug2024 04:53:38.283] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: dieggox left the game
+[14Aug2024 04:55:33.643] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@5e1cf81f
+[14Aug2024 04:55:33.662] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: dieggox[/127.215.16.98:35661] logged in with entity id 38461 at (1187.282625963572, 61.0, 2398.511677891988)
+[14Aug2024 04:55:33.664] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: dieggox joined the game
+[14Aug2024 04:55:33.674] [Server thread/INFO] [Waila/]: Syncing config to dieggox (0f3211e8-4d23-38e7-b372-0df7b8283720)
+[14Aug2024 05:03:47.180] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: dieggox lost connection: Disconnected
+[14Aug2024 05:03:47.181] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: dieggox left the game
+[14Aug2024 05:06:17.427] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[14Aug2024 05:06:17.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Aug2024 05:06:17.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Aug2024 05:06:17.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Aug2024 05:06:17.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14Aug2024 05:06:18.173] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14Aug2024 05:06:18.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14Aug2024 05:06:18.217] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Aug2024 05:06:18.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14Aug2024 05:06:18.315] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Aug2024 05:06:18.399] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14Aug2024 05:06:18.705] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Aug2024 05:06:18.931] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
